@@ -1,0 +1,21 @@
+.image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.image-container img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1440px) {
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,52 @@
+.revel-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 343px;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    height: 46px;
+    font-family: var(--font-roboto-condensed);
+    cursor: pointer;
+}
+
+.revel-cta.purple {
+    background-color: #751B5C;
+    color: #FFFFFF;
+}
+
+.revel-cta.white {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.revel-cta.small {
+    width: 125px;
+    min-width: 125px;
+}
+
+.revel-cta.medium {
+    width: 200px;
+}
+
+.revel-cta.fullwidth {
+    width: 100%;
+}
+
+form .revel-cta {
+    max-height: 44px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+@media screen and (min-width: 1440px) {
+    .revel-cta {
+        font-size: 24px;
+        height: 57px;
+    }
+
+    .revel-cta.medium {
+        width: 373px;
+    }
+}

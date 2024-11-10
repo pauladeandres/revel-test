@@ -1,0 +1,36 @@
+.login-form {
+    height: 394px;
+    width: 343px;
+    max-width: 95%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form input {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+}
+.login-form button {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+}
+
+@media screen and (min-width: 412px) {
+    .login-form {
+        width: 352px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .login-form {
+        margin-right: 120px;
+    }
+}
+
+@media screen and (min-width: 1660px) {
+    .login-form {
+        margin-right: 130px;
+    }
+}
